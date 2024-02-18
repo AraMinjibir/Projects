@@ -1,0 +1,35 @@
+@media(max-width: 800px) {
+    .row {
+
+        width: 40% !important;
+        @include flex;
+        padding: 0 !important;
+
+        .col-4 {
+            width: 100% !important;
+            margin:0 !important;
+            padding: 0 !important;
+           
+
+            .card {
+                margin: 0 !important;
+                padding: 1rem !important;
+                width: 12rem !important;
+
+                .header {
+                    margin:0 !important;
+                    margin-bottom:  0.5rem  !important;
+                }
+            }
+            .bg-primary {
+                border-top-right-radius: 6px;
+                border-bottom-left-radius: 0 !important;
+                
+            }
+            .bg-info {
+                border-top-right-radius: 0 !important;
+                border-bottom-left-radius: 6px;
+            }
+        }
+    }
+}

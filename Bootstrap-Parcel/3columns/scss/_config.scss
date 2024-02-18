@@ -1,0 +1,25 @@
+$primary-color:hsl(31, 77%, 52%);
+$secondary-color: hsl(184, 100%, 22%);
+$tertiary-color:hsl(179, 100%, 13%);
+$neutral-color:hsla(0, 0%, 100%, 0.75);
+$special-color:hsl(0, 0%, 95%);
+// Headings' font
+
+@mixin font {
+    font-family: 'Big Shoulders Display',sans-serif;
+    font-weight: 700;
+}
+
+// Paragraph's font
+
+@mixin fonts {
+    font-family: 'Lexend Deca'sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+// Media flex
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,61 @@
+.container-fluid {
+    .row {
+        width: 65%;
+        margin: auto !important;
+       display: flex;
+       justify-content: center;
+        
+        .bg-primary {
+            width: 100%;
+            height: 22rem;
+            background-color: $primary-color !important;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border: none;
+
+            h2 {
+                @include font;
+                color: $special-color !important;
+            }
+            p {
+                @include fonts;
+                color: $neutral-color !important;
+            }
+        }
+        .bg-secondary {
+            width: 100%;
+            height: 22rem;
+            border-radius: 0;
+            border: none;
+            background-color: $secondary-color !important;
+
+            h2 {
+                @include font;
+                color: $special-color !important;
+            }
+            p {
+                @include fonts;
+                color: $neutral-color !important;
+            }
+        }
+        .bg-info {
+            width: 100%;
+            height: 22rem;
+            border-bottom-left-radius: 0;
+            border: none;
+            border-top-left-radius: 0;
+            background-color: $tertiary-color !important;
+
+            h2 {
+                @include font;
+                color: $special-color !important;
+            }
+            p {
+                @include fonts;
+                color: $neutral-color !important;
+            }
+
+        }
+        
+    }
+}

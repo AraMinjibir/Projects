@@ -1,0 +1,20 @@
+%btn {
+    margin-bottom: 3rem;
+    background-color: $special-color !important;
+    @include fonts;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-primary {
+    @extend %btn;
+    color: $primary-color;
+}
+.btn-secondary {
+    @extend %btn;
+    color: $secondary-color;
+}
+.btn-success {
+    @extend %btn;
+    color: $tertiary-color;
+}
