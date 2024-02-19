@@ -1,0 +1,82 @@
+.container {
+    background-image: url(../assets/img/bg-static.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    
+    header{
+        .log {
+            @include Base-font;
+            font-family: 'Hanken Grotesk', sans-serif;
+            padding: 6px 12px;
+            
+
+        }
+        .btn {
+            @include Base-font;
+            font-family: 'Hanken Grotesk', sans-serif;
+            
+
+        }
+    }
+
+    .content{
+        width: 400px;
+        margin-top: 8rem !important;
+        margin-bottom: 4rem !important;
+        padding-right: 3rem;
+        
+        p {
+            margin-bottom: 0;
+            @include Base-font;
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+        h1{
+            line-height: 1;
+            @include base-Font;
+            font-family: 'Hanken Grotesk', sans-serif;
+        }
+    }
+    .down {
+
+        footer {
+
+            p{
+                @include Base-font;
+                font-family: 'Hanken Grotesk', sans-serif;
+            }
+            .d-flex {
+                margin-top: -1rem;
+
+                .time, .me-1{
+                    @include Base-font;
+                    font-family: 'Hanken Grotesk', sans-serif;
+                }
+
+                span{
+                    @include base-font;
+                    font-family: 'Hanken Grotesk', sans-serif;
+
+                    .mx-1 {
+                        margin-left: 0.2rem !important;
+                        margin-right: 0.5rem !important;
+                    }
+                    
+                }
+                
+            }
+        }
+
+       .vertical{
+
+        .text-light {
+            @include base-font;
+            margin-left: 18.5rem;
+        }
+       }
+    }
+   .text-secondary{
+        color: hsla(0, 2%, 59%, 0.75) !important;
+        
+   }
+}
