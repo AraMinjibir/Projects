@@ -1,0 +1,26 @@
+@mixin base-font {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+@mixin Base-font {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+@mixin base-Font {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+@mixin base-border-radius {
+    border-radius: 0 !important;
+    border-top-left-radius: 0.2rem !important;
+    border-bottom-left-radius: 0.2rem !important;
+}
+@mixin Base-border-radius {
+    border-radius: 0 !important;
+    border-top-right-radius: 0.2rem !important;
+    border-bottom-right-radius: 0.2rem !important;
+}

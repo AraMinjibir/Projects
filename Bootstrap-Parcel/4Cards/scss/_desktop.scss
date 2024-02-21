@@ -1,0 +1,73 @@
+
+.container-fluid {
+    width: 100% !important;
+    background-color: hsla(0, 0%, 96%, 0.5) !important;
+    
+        .text-secondary {
+            @include fonts;
+            color: $secondary-color !important;
+        }
+        h2 {
+            @include font;
+            margin-top: -2vh;
+            color: $primary-color;
+        }
+        .text-info {
+            @include Font;
+            color: $secondary-color !important;
+        }
+    }
+   
+    .d-flex {
+            
+            .supervisor {
+                margin-top: 10rem;
+                width:330px !important;
+                border: none;
+                border-top: 3px solid $second-bg-color;
+               
+            }
+            .calculator {
+                margin-top: 10rem;
+                width:330px !important;
+                border: none;
+                border-top: 3px solid $fourth-bg-color;
+
+            }
+            .builder {
+                 width: 15rem !important;
+                 width:330px !important;
+                border: none;
+                border-top: 3px solid $first-bg-color;
+                   
+            }
+            .karma {
+                 width: 20rem !important;
+                width:330px !important;
+                 border: none;
+                border-top:3px solid $third-bg-color;
+            }
+            
+            .card {
+                p {
+                    color: $secondary-color;
+                    @include Font;
+                }
+                img {
+                    width: 5vw;
+                    float: right;
+                    margin-top: 2rem;
+                }
+                
+        }
+        
+        
+    }
+    .second {
+        width:330px !important;
+        margin: 0 1rem;
+}
+    
+    .third {
+        width: 370px;
+    }

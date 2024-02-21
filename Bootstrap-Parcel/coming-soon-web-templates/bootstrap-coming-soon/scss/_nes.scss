@@ -1,0 +1,38 @@
+.container{
+    background-image: url(../assets/img/bg-mobile-fallback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    
+
+    .row {
+        background-color:hsla(190, 50%, 30%, 0.5);
+        
+        h1 {
+                @include Base-font;
+                line-height: 1;
+            
+        }
+        p {
+            @include base-font;
+        }
+        .col {
+            margin-bottom: 10rem;
+            .input-group {
+                
+                .form-control {
+                    @include base-border-radius;
+                    
+                }
+
+                .btn {
+                    background-color:hsl(165, 29%, 22%);
+                    @include base-Font;
+                    @include Base-border-radius;
+                    color: hsl(0, 0%, 100%) !important;
+                }
+
+            }
+        }
+    }
+}
