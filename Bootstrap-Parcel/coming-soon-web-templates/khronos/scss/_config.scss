@@ -1,0 +1,18 @@
+
+@mixin base-font {
+    font-family: 'Karla',sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+@mixin Base-font {
+    font-family: 'Karla',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@mixin base-Font {
+    font-family: 'Karla',sans-serif;
+    font-weight: 700;
+   
+}
