@@ -78,7 +78,7 @@ function searchItem(e){
         const searchedOutPut = searchedResult.firstChild.textContent;
         
         // Get searchedResult
-        if(searchedOutPut.toLocaleLowerCase().indexOf(searchValue) != -1){
+        if(searchedOutPut.toLowerCase().indexOf(searchValue) != -1){
             searchedResult.style.display = 'blocck';
         }else {
             searchedResult.style.display = 'none';
