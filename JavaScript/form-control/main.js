@@ -79,7 +79,7 @@ function searchItem(e){
         
         // Get searchedResult
         if(searchedOutPut.toLowerCase().indexOf(searchValue) != -1){
-            searchedResult.style.display = 'blocck';
+            searchedResult.style.display = 'block';
         }else {
             searchedResult.style.display = 'none';
             // Note to show

@@ -47,7 +47,7 @@ function saveNoteBtnClicked(){
             notesList.removeChild(document.getElementById(newNote))
         }
        
-
+ 
         // deleteBtn event
 
         deleteBtn.addEventListener('click', deleteBtnClicked);
