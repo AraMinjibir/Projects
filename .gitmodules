@@ -4,3 +4,6 @@
 [submodule "abubakar"]
 	path = abubakar
 	url = git@github.com:AraMinjibir/abubakar.git
+[submodule "sass-projects-folder"]
+	path = sass-projects-folder
+	url = git@github.com:AraMinjibir/sass-projects-folder.git
