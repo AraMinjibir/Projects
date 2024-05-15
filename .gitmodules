@@ -1,0 +1,6 @@
+[submodule "aramjb"]
+	path = aramjb
+	url = git@github.com:AraMinjibir/aramjb.git
+[submodule "abubakar"]
+	path = abubakar
+	url = git@github.com:AraMinjibir/abubakar.git
