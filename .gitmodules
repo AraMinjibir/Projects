@@ -10,3 +10,7 @@
 [submodule "java-script-projects"]
 	path = java-script-projects
 	url = git@github.com:AraMinjibir/java-script-projects.git
+
+[submodule "s"]
+	path = s
+	url = git@github.com:AraMinjibir/s.git
