@@ -7,3 +7,6 @@
 [submodule "sass-projects-folder"]
 	path = sass-projects-folder
 	url = git@github.com:AraMinjibir/sass-projects-folder.git
+[submodule "java-script-projects"]
+	path = java-script-projects
+	url = git@github.com:AraMinjibir/java-script-projects.git
